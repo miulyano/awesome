@@ -1,0 +1,1 @@
+var menuButton=document.querySelector(".menu"),exit=document.querySelector(".close"),menu=document.querySelector(".menu-list-block");menuButton.addEventListener("click",function(e){e.preventDefault(),menu.classList.add("menu-list-block-active")}),exit.addEventListener("click",function(e){e.preventDefault(),menu.classList.remove("menu-list-block-active")});
